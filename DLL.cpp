@@ -4,7 +4,12 @@
 
 void DLL()
 {
-  std::cout << "Found deserializer > " << std::endl;k
+  std::cout << "Found deserializer > " << std::endl;
+  std::cout << "Found lua_spawn > " << std::endl;
+    std::cout << "Found print > " << std::endl;
+
+  std::cout << "Found deserializer > " << std::endl;
+  printf("done replacing addresses")
 }
 
 //no entry 
