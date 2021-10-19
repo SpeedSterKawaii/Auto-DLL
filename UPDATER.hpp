@@ -75,3 +75,14 @@ void Update()
 }
 
 //done
+void CatchError()
+{
+   int error = 0;
+   try
+   {
+	   Update();//update
+   }
+   catch(exception){error = error +1;}//bruh
+   cout << error << endl;
+	//1 = error, 2 = unknown, 3  = megaman idiot
+}
